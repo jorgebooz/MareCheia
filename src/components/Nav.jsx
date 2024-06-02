@@ -13,7 +13,7 @@ function Nav() {
         <a className='navLink'>Como funciona</a>
         <a className='navLink'>Nosso time</a>
       </ul>
-      <button className='botaoUm'>Participe</button>
+      <button className="botaoNav botaoUm">Participe</button>
     </nav>
     );
 }

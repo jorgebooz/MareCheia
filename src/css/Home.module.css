@@ -43,7 +43,6 @@
     gap: 1.5rem;
     padding: 2rem 0rem;
 }
-
 .card {
     background-color: var(--ocean-green);
     height: 20rem;
@@ -77,11 +76,9 @@
     left: 0; 
     
 }
-
 .card h3{
     color: var(--sun-yellow);
 }
-
 .mareCheiaBtn{
     margin: 1.5rem 0rem;
     width: 200px;
@@ -126,3 +123,25 @@
 
 }
 
+.participe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.participe h3{
+    padding: 2rem;
+}
+.participe h2{
+    padding: 0rem 1rem 1rem 1rem;
+}
+.participe p{
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+}
+.participeBtn{
+    width: 200px;
+    height: 70px;
+    margin: 0rem 0rem 2rem 0rem;
+}
