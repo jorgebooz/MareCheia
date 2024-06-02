@@ -1,5 +1,6 @@
 import React from 'react';
 import pesca from '../assets/Home/pesca de arrasto.svg'
+import pescador from '../assets/Home/fishing with net.svg'
 import styles from '../css/Home.module.css'
 
 const Home = () => {
@@ -34,6 +35,18 @@ const Home = () => {
       <h5>Veja como nossa solução funciona por conta própria</h5>
       <button className={`${styles.mareCheiaBtn} botaoUm`}>Maré Cheia</button>
     </section>
+
+    <section className={styles.impacto}>
+      <div className={styles.impactoContainer}>
+        <h2>Impacto e Benefícios</h2>
+        <p>Ao disponibilizar informações detalhadas sobre a saúde da fauna marinha, nosso sistema permite que a população e os governantes locais tomem decisões informadas para proteger os oceanos. Seja acompanhando projetos de revitalização, monitorando a saúde marinha ou alertando sobre a sobrepesca, nossa plataforma é uma ferramenta essencial para a sustentabilidade.</p>
+        <h5>Benefícios de nosso projeto</h5>
+        <button className={`${styles.resultadosBtn} botaoUm`}>Resultados</button>
+      </div>
+      <img src={pescador} alt="pesca" className={styles.imgDois}/>
+    </section>
+
+    
     </>
     
   );
