@@ -5,6 +5,8 @@ import App from './App';
 import Error from './routes/Error';
 import Home from './routes/Home';
 
+import './css/scss/main.sass'
+
 const router = createBrowserRouter([
   {
     path: '/',

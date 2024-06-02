@@ -1,12 +1,13 @@
 import {} from 'react';
+import styles from '../css/Nav.module.css'
+import logo from '../assets/Nav/Logo.svg'
 
 function Nav() {
 
   return (
-    <footer className="footer">
-
-    </footer>
-
+    <nav >
+      <img src={logo} alt="logo" />
+    </nav>
     );
 }
 export default Nav;
