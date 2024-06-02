@@ -8,10 +8,10 @@ function Nav() {
     <nav >
       <img src={logo} alt="logo" className='logo'/>
       <ul className={styles.links}>
-        <li>Início</li>
-        <li>Indicadores</li>
-        <li>Como funciona</li>
-        <li>Nosso time</li>
+        <a className='navLink'>Início</a>
+        <a className='navLink'>Indicadores</a>
+        <a className='navLink'>Como funciona</a>
+        <a className='navLink'>Nosso time</a>
       </ul>
       <button className='botaoUm'>Participe</button>
     </nav>

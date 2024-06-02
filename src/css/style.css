@@ -11,6 +11,24 @@
 
     
 }
+
+.navLink{
+    color: var(--ocean-green);
+    font-family: var(--ocean-green);
+    text-decoration: var(--ocean-green);
+    text-transform: var(--ocean-green);
+}
+.navLink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navLink:active {
+    color: var(--sea-green);
+}
+.navLink:visited {
+    color: var(--ocean-green);
+  }
+  
  
 .botaoUm{
     appearance: none;
@@ -35,20 +53,17 @@
     touch-action: manipulation;
     width: 100%;
     will-change: transform;
-  }
-  
-  .botaoUm:disabled {
+}
+.botaoUm:disabled {
     pointer-events: none;
-  }
-  
-  .botaoUm:hover {
+}
+.botaoUm:hover {
     color: #fff;
     background-color: var(--pacific-blue);
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
-  }
-  
-  .botaoUm:active {
+}
+.botaoUm:active {
     box-shadow: none;
     transform: translateY(0);
-  }
+}

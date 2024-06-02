@@ -1,0 +1,82 @@
+.container { grid-area: container; }
+.imgUm{ grid-area: imgUm; } 
+
+.sobrepesca{
+    display: grid;
+    grid-template-areas:
+    'container imgUm'
+    'container imgUm'
+    'container imgUm'
+    'container imgUm';
+    padding: 2rem 2rem;
+    gap: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+.problemaBtn{
+    width: 200px;
+    height: 70px;
+}
+.imgUm{
+    height: 350px;
+}
+
+.inovacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    gap: 1rem;
+}
+.containerInovacao{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem 0rem;
+}
+.card {
+    background-color: var(--ocean-green);
+    height: 20rem;
+    width: 17rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0; /* Começa na borda direita do card */
+    width: 0; /* Começa com largura zero */
+    height: 3px; /* Altura da linha */
+    background-color: var(--sun-yellow); /* Cor da linha */
+    transition: width 0.3s ease; /* Transição suave */
+  }
+  
+  .card:hover::before {
+    width: 100%; /* Aumenta a largura para cobrir todo o card */
+    right: auto; /* Reseta a posição right */
+    left: 0; /* Alinha a linha à borda esquerda do card */
+  }
+  
+.card h3{
+    color: var(--sun-yellow);
+}
+
+.mareCheiaBtn{
+    margin: 1.5rem 0rem;
+    width: 200px;
+    height: 70px;
+}
+
+
