@@ -1,0 +1,66 @@
+*{
+    --pacific-blue: #2A88BD;
+    --sun-yellow: #FCAF58;
+    --sand-yellow: #F9C784;
+    --sea-green: #7BEEC9;
+    --ocean-green: #268A8C;
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navLink{
+    color: var(--ocean-green);
+    font-family: var(--ocean-green);
+    text-decoration: var(--ocean-green);
+    text-transform: var(--ocean-green);
+}
+.navLink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navLink:active {
+    color: var(--sea-green);
+}
+.navLink:visited {
+    color: var(--ocean-green);
+}
+  
+ 
+.botaoUm{
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid var(--pacific-blue);
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: var(--pacific-blue);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+.botaoUm:disabled {
+    pointer-events: none;
+}
+.botaoUm:hover {
+    color: #fff;
+    background-color: var(--pacific-blue);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+.botaoUm:active {
+    box-shadow: none;
+    transform: translateY(0);
+}

@@ -1,0 +1,57 @@
+.caio { grid-area: caio; }
+.jorge { grid-area: jorge }
+.tibao { grid-area: tibao}
+.fiap { grid-area: fiap}
+.baixo { grid-area: baixo}
+
+footer{
+
+    border-top: solid 1px #fff;
+    padding: 2rem 2rem 1rem 2rem;
+    display: grid;
+    grid-template-areas: 
+    'caio jorge tibao fiap'
+    'caio jorge tibao fiap'
+    'baixo baixo baixo baixo';
+    border-bottom: solid 1px #fff;
+    margin-bottom: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card a{
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+    font-weight: 500;
+}
+
+.baixo{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+.icons a {
+    color: #fff; /* Cor dos ícones */
+    transition: color 0.3s ease;
+}
+  
+.icons a:hover {
+    color: var(--sea-green); 
+}

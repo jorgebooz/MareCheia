@@ -1,6 +1,6 @@
 import {} from 'react';
 
-function Error() {
+const Error = () =>{
 
   return (
     <footer className="footer">

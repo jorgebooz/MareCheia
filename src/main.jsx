@@ -1,9 +1,14 @@
 import React from 'react';
+import './css/style.css'
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import Error from './routes/Error';
 import Home from './routes/Home';
+import Login from './routes/Login'
+
+
+import './css/scss/main.sass'
 
 const router = createBrowserRouter([
   {
@@ -12,6 +17,7 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       { path: '/', element: <Home /> },
+      { path: '/login', element: <Login /> }
     ],
   },
 ]);

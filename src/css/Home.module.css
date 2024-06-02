@@ -1,0 +1,147 @@
+.container { grid-area: container; }
+.imgUm{ grid-area: imgUm; } 
+
+.sobrepesca{
+    display: grid;
+    grid-template-areas:
+    'container imgUm'
+    'container imgUm'
+    'container imgUm'
+    'container imgUm';
+    padding: 2rem 2rem;
+    gap: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+.container p{
+    text-align: justify;
+}
+.problemaBtn{
+    width: 200px;
+    height: 70px;
+}
+.imgUm{
+    width: 700px;
+    height: 400px;
+}
+
+
+
+.inovacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    gap: 1rem;
+}
+.containerInovacao{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem 0rem;
+}
+.card {
+    background-color: var(--ocean-green);
+    height: 20rem;
+    width: 17rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    position: relative;
+}
+.card:hover{
+    cursor:default;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--sun-yellow);
+    transition: width 0.3s ease;
+}
+.card:hover::before {
+    width: 100%;
+    right: auto;
+    left: 0; 
+    
+}
+.card h3{
+    color: var(--sun-yellow);
+}
+.mareCheiaBtn{
+    margin: 1.5rem 0rem;
+    width: 200px;
+    height: 70px;
+}
+
+
+.impactoContainer { grid-area: impactoContainer; }
+.imgDois{ grid-area: imgDois; } 
+
+.impacto{
+    display: grid;
+    grid-template-areas:
+    'imgDois impactoContainer '
+    'imgDois impactoContainer '
+    'imgDois impactoContainer '
+    'imgDois impactoContainer ';
+    padding: 2rem 2rem;
+    gap: 2rem;
+
+}
+.impactoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+.impactoContainer p{
+    text-align: justify;
+}
+.impactoContainer h5{
+    align-self: end;
+}
+.resultadosBtn{
+    width: 200px;
+    height: 70px;
+    align-self: end;
+}
+.imgDois{
+    width: 700px;
+    height: 400px;
+
+}
+
+.participe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.participe h3{
+    padding: 2rem;
+}
+.participe h2{
+    padding: 0rem 1rem 1rem 1rem;
+}
+.participe p{
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+}
+.participeBtn{
+    width: 200px;
+    height: 70px;
+    margin: 0rem 0rem 2rem 0rem;
+}
