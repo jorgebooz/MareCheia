@@ -28,8 +28,8 @@ const Home = () => {
           <p>Publicamos os dados coletados e analisados em nosso site, oferecendo dashboards interativos e textos explicativos. Isso permite que a população e os governantes locais se informem sobre o estado dos oceanos, incentivando a adoção de medidas de conservação e revitalização marinha.</p>
         </div>
         <div className={styles.card}>
-          <h3>Conscientização</h3>
-          <p>Publicamos os dados coletados e analisados em nosso site, oferecendo dashboards interativos e textos explicativos. Isso permite que a população e os governantes locais se informem sobre o estado dos oceanos, incentivando a adoção de medidas de conservação e revitalização marinha.</p>
+          <h3>Monitoramento</h3>
+          <p>Com a integração de sensores avançados e análise de dados, nosso sistema oferece um monitoramento contínuo e preciso das condições oceânicas. As informações são atualizadas em tempo real, permitindo uma resposta rápida a situações críticas, como a sobrepesca excessiva, e ajudando a garantir a sustentabilidade dos recursos marinhos.</p>
         </div>
       </div>
       <h5>Veja como nossa solução funciona por conta própria</h5>
