@@ -1,31 +1,45 @@
 import React, { useState, useEffect } from 'react';
 import pesca1 from '../assets/Home/pesca de arrasto.svg';
-import pesca2 from '../assets/Home/fishing with net.svg'; // Adicione outras imagens que você deseja no carrossel
+import pesca2 from '../assets/Home/peixes mortos.svg';
 import pescador1 from '../assets/Home/fishing with net.svg';
-import pescador2 from '../assets/Home/pesca de arrasto.svg'; // Adicione outras imagens que você deseja no carrossel
+import pescador2 from '../assets/Home/pesca de arrasto.svg';
+import pescador3 from '../assets/Home/equipe.svg'
+
 import styles from '../css/Home.module.css';
+import feedbacks from '../../feedbacks.json';
 
 const Home = () => {
   const [currentPesca, setCurrentPesca] = useState(0);
   const [currentPescador, setCurrentPescador] = useState(0);
+  const [currentFeedback, setCurrentFeedback] = useState(0);
 
-  const pescaImages = [pesca1, pesca2]; // Adicione outras imagens aqui
-  const pescadorImages = [pescador1, pescador2]; // Adicione outras imagens aqui
+  const pescaImages = [pesca1, pesca2];
+  const pescadorImages = [pescador1, pescador2, pescador3];
 
   useEffect(() => {
     const intervalPesca = setInterval(() => {
       setCurrentPesca((prevCurrent) => (prevCurrent + 1) % pescaImages.length);
-    }, 3000); // Troca de imagem a cada 3 segundos
+    }, 3000);
 
     const intervalPescador = setInterval(() => {
       setCurrentPescador((prevCurrent) => (prevCurrent + 1) % pescadorImages.length);
-    }, 3000); // Troca de imagem a cada 3 segundos
+    }, 3000);
 
     return () => {
       clearInterval(intervalPesca);
       clearInterval(intervalPescador);
     };
   }, [pescaImages.length, pescadorImages.length]);
+
+  useEffect(() => {
+    const intervalFeedback = setInterval(() => {
+      setCurrentFeedback((prevCurrent) => (prevCurrent + 1) % feedbacks.feedbacks.length);
+    }, 5000);
+
+    return () => {
+      clearInterval(intervalFeedback);
+    };
+  }, []);
 
   return (
     <>
@@ -40,7 +54,7 @@ const Home = () => {
       </section>
       
       <section className={styles.inovacao}>
-        <h2 className={styles.title}>Inovação e Tecnologia a Serviço dos Oceanos</h2>
+       <h2 className={styles.title}>Inovação e Tecnologia a Serviço dos Oceanos</h2>
         <div className={styles.containerInovacao}>
           <div className={styles.card}>
               <h3>Sustentabilidade</h3>
@@ -58,7 +72,17 @@ const Home = () => {
         <h4>Veja como nossa solução funciona por conta própria</h4>
         <button className={`${styles.mareCheiaBtn} botaoUm botaoMareCheia`}>Maré Cheia</button>
       </section>
-
+    
+    <section className={styles.comentarios}>
+      <div className={`${styles.alert} ${styles.alertSuccess}`}>
+        <h2>Feedbacks</h2>
+        <h4 className={styles.alertHeading}>{feedbacks.feedbacks[currentFeedback].nome}</h4>
+        <p className={styles.cidade}>{feedbacks.feedbacks[currentFeedback].cidade}</p>
+        <hr />
+        <p className={styles.alertMessage}>{feedbacks.feedbacks[currentFeedback].comentario}</p>      
+      </div>
+    </section>
+      
       <section className={styles.impacto}>
         <div className={styles.impactoContainer}>
           <h2>Impacto e Benefícios</h2>
