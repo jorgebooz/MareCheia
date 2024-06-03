@@ -17,8 +17,13 @@
     gap: 1rem;
     justify-content: center;
 }
+.container h1{
+    font-size: 44px;
+}
 .container p{
     text-align: justify;
+    width: 70%;
+    font-size: 22px;
 }
 .problemaBtn{
     width: 200px;
@@ -42,6 +47,9 @@
     display: flex;
     gap: 1.5rem;
     padding: 2rem 0rem;
+}
+.title{
+    font-size: 44px;
 }
 .card {
     background-color: var(--ocean-green);
@@ -106,16 +114,23 @@
     gap: 1rem;
     justify-content: center;
 }
-.impactoContainer p{
-    text-align: justify;
+.impactoContainer h2{
+    font-size: 44px;
+    align-self: center;
 }
-.impactoContainer h5{
-    align-self: end;
+.impactoContainer p{
+    align-self: center;
+    text-align: justify;
+    width: 70%;
+    font-size: 22px;
+}
+.impactoContainer h4{
+    align-self: center;
 }
 .resultadosBtn{
     width: 200px;
     height: 70px;
-    align-self: end;
+    align-self: center;
 }
 .imgDois{
     width: 700px;
@@ -136,9 +151,9 @@
     padding: 0rem 1rem 1rem 1rem;
 }
 .participe p{
-    width: 40%;
+    width: 30%;
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
 }
 .participeBtn{
     width: 200px;

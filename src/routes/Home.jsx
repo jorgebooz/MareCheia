@@ -10,7 +10,7 @@ const Home = () => {
       <div className={styles.container}>
         <h1>Sobrepesca: uma Ameaça Real</h1>
         <p>A sobrepesca não é apenas um problema ecológico, mas uma ameaça direta à biodiversidade marinha e às comunidades costeiras que dependem dos oceanos para sua subsistência. Nosso projeto, Maré Cheia, é dedicado a combater essa crise através da inovação tecnológica e da transparência de dados.</p>
-        <h5>Saiba mais dos riscos da sobrepresca</h5>
+        <h3>Saiba mais dos riscos da sobrepresca</h3>
         <button className={`${styles.problemaBtn} botaoUm botaoProblema`}>O Problema</button>
       </div>
       <img src={pesca} alt="pesca" className={styles.imgUm}/>
@@ -32,7 +32,7 @@ const Home = () => {
           <p>Com a integração de sensores avançados e análise de dados, nosso sistema oferece um monitoramento contínuo e preciso das condições oceânicas. As informações são atualizadas em tempo real, permitindo uma resposta rápida a situações críticas, como a sobrepesca excessiva, e ajudando a garantir a sustentabilidade dos recursos marinhos.</p>
         </div>
       </div>
-      <h5>Veja como nossa solução funciona por conta própria</h5>
+      <h4>Veja como nossa solução funciona por conta própria</h4>
       <button className={`${styles.mareCheiaBtn} botaoUm botaoMareCheia`}>Maré Cheia</button>
     </section>
 
@@ -40,19 +40,17 @@ const Home = () => {
       <div className={styles.impactoContainer}>
         <h2>Impacto e Benefícios</h2>
         <p>Ao disponibilizar informações detalhadas sobre a saúde da fauna marinha, nosso sistema permite que a população e os governantes locais tomem decisões informadas para proteger os oceanos. Seja acompanhando projetos de revitalização, monitorando a saúde marinha ou alertando sobre a sobrepesca, nossa plataforma é uma ferramenta essencial para a sustentabilidade.</p>
-        <h5>Benefícios de nosso projeto</h5>
+        <h4>Benefícios de nosso projeto</h4>
         <button className={`${styles.resultadosBtn} botaoUm botaoResultados`}>Resultados</button>
       </div>
       <img src={pescador} alt="pesca" className={styles.imgDois}/>
     </section>
 
-    
-    
     <section className={styles.participe}>
       <h3>Pescando com responsabilidade, alimentando o futuro</h3>
       <h2>Seja Parte da Solução</h2>
       <p>Somos a Maré Cheia, e estamos aqui para apresentar os perigos da sobrepesca e suas consequências para sua região. Junte-se a nós nessa missão de proteger nossos oceanos e garantir um futuro sustentável para as próximas gerações.</p>
-      <h5>Faça a diferença</h5>
+      <h4>Faça a diferença</h4>
       <button className={`${styles.participeBtn} botaoUm botaoParticipe`}>Participe</button>
     </section>
     </>

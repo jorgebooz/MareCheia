@@ -12,13 +12,12 @@
 
 .navLink{
     color: var(--ocean-green);
-    font-family: var(--ocean-green);
-    text-decoration: var(--ocean-green);
-    text-transform: var(--ocean-green);
+    text-decoration: none;
 }
 .navLink:hover {
     text-decoration: underline;
     cursor: pointer;
+    color: var(--sea-green);
 }
 .navLink:active {
     color: var(--sea-green);
