@@ -1,0 +1,35 @@
+{
+    "feedbacks": [
+      {
+        "id": 1,
+        "nome": "João Nogueira",
+        "cidade": "Laguna (SC)",
+        "comentario": "Eu só tenho a agradecer à Maré Cheia pelo trabalho lindo que fizeram aqui na nossa região. Graças às informações que vocês trouxeram, a gente pôde cuidar melhor dos nossos peixes e do nosso mar"
+      },
+      {
+        "id": 2,
+        "nome": "Marcelo Fernandes",
+        "cidade": "Camaragibe (PE)",
+        "comentario": "A turma da Maré Cheia merece todo o nosso reconhecimento. As informações sobre a saúde dos nossos mares foram fundamentais pra gente entender o que estava acontecendo e tomar as providências certas."
+      },
+      {
+        "id": 3,
+        "nome": "Rita Santos",
+        "cidade": "Parintins (AM)",
+        "comentario": "Não sei nem como agradecer à Maré Cheia. Com os dados e a atenção de vocês, conseguimos evitar que a pesca exagerada acabasse com nossos peixes. A comunidade toda tá muito mais consciente e unida pra proteger nosso mar. Obrigada de coração!"
+      },
+      {
+        "id": 4,
+        "nome": "Carlos Mendes",
+        "cidade": "Cananéia (SP)",
+        "comentario": "A Maré Cheia trouxe uma verdadeira transformação para nossa comunidade costeira. Com a coleta e análise de dados precisos, conseguimos alertar as autoridades sobre práticas prejudiciais e promover ações de revitalização. Muito obrigado pelo excelente trabalho"
+      },
+      {
+        "id": 5,
+        "nome": "Carlos Mendes",
+        "cidade": "Parintins (AM)",
+        "comentario": "Meu sincero agradecimento à Maré Cheia. A transparência e o acesso às informações que vocês forneceram foram fundamentais para aumentar a conscientização sobre a sobrepesca em nossa região"
+      }
+    ]
+  }
+  
