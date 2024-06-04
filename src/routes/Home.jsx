@@ -48,7 +48,14 @@ const Home = () => {
           <h1>Sobrepesca: uma Ameaça Real</h1>
           <p>A sobrepesca não é apenas um problema ecológico, mas uma ameaça direta à biodiversidade marinha e às comunidades costeiras que dependem dos oceanos para sua subsistência. Nosso projeto, Maré Cheia, é dedicado a combater essa crise através da inovação tecnológica e da transparência de dados.</p>
           <h3>Saiba mais dos riscos da sobrepresca</h3>
-          <button className={`${styles.problemaBtn} botaoUm botaoProblema`}>O Problema</button>
+          <a
+          className={`${styles.problemaBtn} botaoUm botaoProblema`}
+          href="https://marsemfim.com.br/sobrepesca-ameaca-os-oceanos-mais-que-poluicao/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          O Problema
+        </a>
         </div>
         <img src={pescaImages[currentPesca]} alt="pesca" className={styles.imgUm}/>
       </section>
@@ -69,17 +76,17 @@ const Home = () => {
             <p>Com a integração de sensores avançados e análise de dados, nosso sistema oferece um monitoramento contínuo e preciso das condições oceânicas. As informações são atualizadas em tempo real, permitindo uma resposta rápida a situações críticas, como a sobrepesca excessiva, e ajudando a garantir a sustentabilidade dos recursos marinhos.</p>
           </div>
         </div>
-        <h4>Veja como nossa solução funciona por conta própria</h4>
+        <h4>Veja o monitoramento em tempo real</h4>
         <button className={`${styles.mareCheiaBtn} botaoUm botaoMareCheia`}>Maré Cheia</button>
       </section>
     
-    <section className={styles.comentarios}>
+     <section className={styles.comentarios}> {/* usei css nessa parte mas eu instalei depois de começar o projeto então so copiei o codigo e adptei pra css puro */}
       <div className={`${styles.alert} ${styles.alertSuccess}`}>
         <h2>Feedbacks</h2>
         <h4 className={styles.alertHeading}>{feedbacks.feedbacks[currentFeedback].nome}</h4>
         <p className={styles.cidade}>{feedbacks.feedbacks[currentFeedback].cidade}</p>
         <hr />
-        <p className={styles.alertMessage}>{feedbacks.feedbacks[currentFeedback].comentario}</p>      
+        <p className={styles.alertMessage}>{feedbacks.feedbacks[currentFeedback].comentario}</p>
       </div>
     </section>
       
@@ -88,7 +95,14 @@ const Home = () => {
           <h2>Impacto e Benefícios</h2>
           <p>Ao disponibilizar informações detalhadas sobre a saúde da fauna marinha, nosso sistema permite que a população e os governantes locais tomem decisões informadas para proteger os oceanos. Seja acompanhando projetos de revitalização, monitorando a saúde marinha ou alertando sobre a sobrepesca, nossa plataforma é uma ferramenta essencial para a sustentabilidade.</p>
           <h4>Benefícios de nosso projeto</h4>
-          <button className={`${styles.resultadosBtn} botaoUm botaoResultados`}>Resultados</button>
+          <a
+          className={`${styles.resultadosBtn} botaoUm botaoProblema`}
+          href="https://www.google.com/search?q=beneficios+ao+solucionar+a+sobrepesca&oq=beneficios+ao+solucionar+a+sobrepesca+&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORifBTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBdIBCTExMDY3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          O Problema
+        </a>
         </div>
         <img src={pescadorImages[currentPescador]} alt="pesca" className={styles.imgDois}/>
       </section>

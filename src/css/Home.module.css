@@ -24,6 +24,9 @@
     .problemaBtn {
         width: 150px;
         height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .imgUm {
         display: flex;
@@ -80,6 +83,7 @@
         align-items: center;
         justify-content: center;
         align-self: center;
+        
     }
     .alert {
         display: flex;
@@ -90,6 +94,7 @@
         border: 1px solid transparent;
         border-radius: 1rem;
         margin: 1rem;
+        height: 30rem;
       }
       .alert hr{
         color: var(--sea-green);
@@ -206,6 +211,9 @@
     .problemaBtn{
         width: 200px;
         height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .imgUm{
         width: 700px;
@@ -321,6 +329,7 @@
         align-items: center;
         justify-content: center;
         align-self: center;
+        
     }
     .alert {
         display: flex;
@@ -331,6 +340,7 @@
         border: 1px solid transparent;
         border-radius: 1rem;
         margin: 1rem;
+        height: 17rem;
       }
     
       .alert hr{
