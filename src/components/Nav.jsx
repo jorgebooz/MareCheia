@@ -15,9 +15,6 @@ function Nav() {
             Indicadores
           </Link>
           <Link to="/" className='navLink'>
-            Como funciona
-          </Link>
-          <Link to="/" className='navLink'>
             Nosso time
           </Link>
           <Link to="/login" className='navLink'>

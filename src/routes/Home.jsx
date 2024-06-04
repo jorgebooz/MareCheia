@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import pesca1 from '../assets/Home/pesca de arrasto.svg';
 import pesca2 from '../assets/Home/peixes mortos.svg';
 import pescador1 from '../assets/Home/fishing with net.svg';
-import pescador2 from '../assets/Home/pesca de arrasto.svg';
+import pescador2 from '../assets/Home/pescador_brasil.svg';
 import pescador3 from '../assets/Home/equipe.svg'
 
 import styles from '../css/Home.module.css';

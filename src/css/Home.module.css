@@ -1,197 +1,375 @@
+@media screen and (max-width: 999px) {
+    .container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .sobrepesca {
+        padding: 2rem 0rem;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container h1 {
+        font-size: 28px;
+    }
+    .container p {
+        text-align: justify;
+        width: 70%;
+        font-size: 18px;
+    }
+    .problemaBtn {
+        width: 150px;
+        height: 60px;
+    }
+    .imgUm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 300px;
+    }
+
+
+    .inovacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0rem;
+        gap: 1rem;
+    }
+    .containerInovacao{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem 0rem;
+        align-items: center;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .card {
+        background-color: var(--ocean-green);
+        height: 13rem;
+        width: 90%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+        padding: 1rem;
+        justify-content: center;
+        position: relative;
+        border-left: solid 2px var(--sun-yellow);
+    }
+    .card h3{
+        color: var(--sun-yellow);
+    }
+    .mareCheiaBtn{
+        margin: 1.5rem 0rem;
+        width: 150px;
+        height: 60px;
+    }
+
+    .comentarios{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+    .alert {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        margin: 1rem;
+      }
+      .alert hr{
+        color: var(--sea-green);
+      }    
+      .alertMessage {
+        color: var(--pacific-blue);
+        font-size: 20px;
+      }
+      .alertSuccess {
+        background-color: #268a8c3d;
+        border-color: var(--ocean-green);
+        color: var(--pacific-blue);
+        width: 70%;
+    }
+
+
+    .impacto{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0rem;
+        gap: 1rem;
+        align-items: center;
+
+    }
+    .impactoContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .impactoContainer h2{
+        font-size: 35px;
+        align-self: center;
+    }
+    .impactoContainer p{
+        align-self: center;
+        text-align: justify;
+        width: 70%;
+        font-size: 16px;
+    }
+    .impactoContainer h4{
+        align-self: center;
+        font-size: 15px;
+    }
+    .resultadosBtn{
+        width: 150px;
+        height: 60px;
+        align-self: center;
+    }
+    .imgDois{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 300px;
+    }
+
+    .participe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .participe h3{
+        padding: 1rem;
+        text-align: center;
+        font-size: 16px
+    }
+    .participe h2{
+        font-size: 35px;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+    .participe p{
+        width: 70%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .participeBtn{
+        width: 150px;
+        height: 60px;
+        margin: 0rem 0rem 2rem 0rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
 .container { grid-area: container; }
 .imgUm{ grid-area: imgUm; } 
 
-.sobrepesca{
-    display: grid;
-    grid-template-areas:
-    'container imgUm'
-    'container imgUm'
-    'container imgUm'
-    'container imgUm';
-    padding: 2rem 2rem;
-    gap: 2rem;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-}
-.container h1{
-    font-size: 44px;
-}
-.container p{
-    text-align: justify;
-    width: 70%;
-    font-size: 22px;
-}
-.problemaBtn{
-    width: 200px;
-    height: 70px;
-}
-.imgUm{
-    width: 700px;
-    height: 400px;
-}
+    .sobrepesca{
+        display: grid;
+        grid-template-areas:
+        'container imgUm'
+        'container imgUm'
+        'container imgUm'
+        'container imgUm';
+        padding: 2rem 2rem;
+        gap: 2rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .container h1{
+        font-size: 44px;
+    }
+    .container p{
+        text-align: justify;
+        width: 70%;
+        font-size: 22px;
+    }
+    .problemaBtn{
+        width: 200px;
+        height: 70px;
+    }
+    .imgUm{
+        width: 700px;
+        height: 400px;
+    } 
 
 
 
-.inovacao{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 2rem;
-    gap: 1rem;
-}
-.containerInovacao{
-    display: flex;
-    gap: 1.5rem;
-    padding: 2rem 0rem;
-}
-.title{
-    font-size: 44px;
-}
-.card {
-    background-color: var(--ocean-green);
-    height: 20rem;
-    width: 17rem;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-    padding: 1rem;
-    justify-content: center;
-    position: relative;
-}
-.card:hover{
-    cursor:default;
-}
-.card::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 3px;
-    background-color: var(--sun-yellow);
-    transition: width 0.3s ease;
-}
-.card:hover::before {
-    width: 100%;
-    right: auto;
-    left: 0; 
+    .inovacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 2rem;
+        gap: 1rem;
+    }
+    .containerInovacao{
+        display: flex;
+        gap: 1.5rem;
+        padding: 2rem 0rem;
+    }
+    .title{
+        font-size: 44px;
+    }
+    .card {
+        background-color: var(--ocean-green);
+        height: 20rem;
+        width: 17rem;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        padding: 1rem;
+        justify-content: center;
+        position: relative;
+    }
+    .card:hover{
+        cursor:default;
+    }
+    .card::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 3px;
+        background-color: var(--sun-yellow);
+        transition: width 0.3s ease;
+    }
+    .card:hover::before {
+        width: 100%;
+        right: auto;
+        left: 0; 
+        
+    }
+    .card h3{
+        color: var(--sun-yellow);
+    }
+    .mareCheiaBtn{
+        margin: 1.5rem 0rem;
+        width: 200px;
+        height: 70px;
+    }
+
+
+    .impactoContainer { grid-area: impactoContainer; }
+    .imgDois{ grid-area: imgDois; } 
+
+    .impacto{
+        display: grid;
+        grid-template-areas:
+        'imgDois impactoContainer '
+        'imgDois impactoContainer '
+        'imgDois impactoContainer '
+        'imgDois impactoContainer ';
+        padding: 2rem 2rem;
+        gap: 2rem;
+
+    }
+    .impactoContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .impactoContainer h2{
+        font-size: 44px;
+        align-self: center;
+    }
+    .impactoContainer p{
+        align-self: center;
+        text-align: justify;
+        width: 70%;
+        font-size: 22px;
+    }
+    .impactoContainer h4{
+        align-self: center;
+    }
+    .resultadosBtn{
+        width: 200px;
+        height: 70px;
+        align-self: center;
+    }
+    .imgDois{
+        width: 700px;
+        height: 400px;
+
+    }
+
+    .comentarios{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+    .alert {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        margin: 1rem;
+      }
     
-}
-.card h3{
-    color: var(--sun-yellow);
-}
-.mareCheiaBtn{
-    margin: 1.5rem 0rem;
-    width: 200px;
-    height: 70px;
-}
+      .alert hr{
+        color: var(--sea-green);
+      }
+    
+    
+      .alertMessage {
+        color: var(--pacific-blue);
+        font-size: 20px;
+      }
+    
+      .alertSuccess {
+        background-color: #268a8c3d;
+        border-color: var(--ocean-green);
+        color: var(--pacific-blue);
+        width: 70%;
+    }
 
-
-.comentarios{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-}
-.alert {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem 1.25rem;
-    margin-bottom: 1rem;
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    margin: 1rem;
-  }
-
-  .alert hr{
-    color: var(--sea-green);
-  }
-  
-  
-  .alertMessage {
-    color: var(--pacific-blue);
-    font-size: 20px;
-  }
-  
-  .alertSuccess {
-    background-color: #268a8c3d;
-    border-color: var(--ocean-green);
-    color: var(--pacific-blue);
-    width: 70%;
-}
-  
-
-.impactoContainer { grid-area: impactoContainer; }
-.imgDois{ grid-area: imgDois; } 
-
-.impacto{
-    display: grid;
-    grid-template-areas:
-    'imgDois impactoContainer '
-    'imgDois impactoContainer '
-    'imgDois impactoContainer '
-    'imgDois impactoContainer ';
-    padding: 2rem 2rem;
-    gap: 2rem;
-
-}
-.impactoContainer{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-}
-.impactoContainer h2{
-    font-size: 44px;
-    align-self: center;
-}
-.impactoContainer p{
-    align-self: center;
-    text-align: justify;
-    width: 70%;
-    font-size: 22px;
-}
-.impactoContainer h4{
-    align-self: center;
-}
-.resultadosBtn{
-    width: 200px;
-    height: 70px;
-    align-self: center;
-}
-.imgDois{
-    width: 700px;
-    height: 400px;
-
-}
-
-.participe{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-.participe h3{
-    padding: 2rem;
-}
-.participe h2{
-    padding: 0rem 1rem 1rem 1rem;
-}
-.participe p{
-    width: 30%;
-    text-align: center;
-    font-size: 22px;
-}
-.participeBtn{
-    width: 200px;
-    height: 70px;
-    margin: 0rem 0rem 2rem 0rem;
+    .participe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .participe h3{
+        padding: 2rem;
+    }
+    .participe h2{
+        padding: 0rem 1rem 1rem 1rem;
+    }
+    .participe p{
+        width: 30%;
+        text-align: center;
+        font-size: 22px;
+    }
+    .participeBtn{
+        width: 200px;
+        height: 70px;
+        margin: 0rem 0rem 2rem 0rem;
+    }
 }
