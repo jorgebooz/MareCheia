@@ -6,6 +6,7 @@ import App from './App';
 import Error from './routes/Error';
 import Home from './routes/Home';
 import Login from './routes/Login'
+import Participe from './routes/Participe'
 
 
 import './css/scss/main.sass'
@@ -17,7 +18,8 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       { path: '/', element: <Home /> },
-      { path: '/login', element: <Login /> }
+      { path: '/login', element: <Login /> },
+      { path: '/participe', element: <Participe />}
     ],
   },
 ]);

@@ -80,7 +80,7 @@ const Home = () => {
         <button className={`${styles.mareCheiaBtn} botaoUm botaoMareCheia`}>Maré Cheia</button>
       </section>
     
-     <section className={styles.comentarios}> {/* usei css nessa parte mas eu instalei depois de começar o projeto então so copiei o codigo e adptei pra css puro */}
+     <section className={styles.comentarios}> {/* usei bootstrap nessa parte mas eu instalei depois de começar o projeto e quebrou toda página, então so copiei o código e adptei para css puro */}
       <div className={`${styles.alert} ${styles.alertSuccess}`}>
         <h2>Feedbacks</h2>
         <h4 className={styles.alertHeading}>{feedbacks.feedbacks[currentFeedback].nome}</h4>
@@ -97,11 +97,11 @@ const Home = () => {
           <h4>Benefícios de nosso projeto</h4>
           <a
           className={`${styles.resultadosBtn} botaoUm botaoProblema`}
-          href="https://www.google.com/search?q=beneficios+ao+solucionar+a+sobrepesca&oq=beneficios+ao+solucionar+a+sobrepesca+&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORifBTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBdIBCTExMDY3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+          href="https://www.iberdrola.com/compromisso-social/pesca-sustentavel"
           target="_blank"
           rel="noopener noreferrer"
         >
-          O Problema
+          Benefícios
         </a>
         </div>
         <img src={pescadorImages[currentPescador]} alt="pesca" className={styles.imgDois}/>

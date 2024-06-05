@@ -21,7 +21,9 @@ function Nav() {
             Login
           </Link>
       </ul>
-      <button className={`${styles.botaoNav} botaoUm`}>Participe</button>
+      <Link to="/participe" className={`${styles.botaoNav} botaoUm`}>
+        Participe
+      </Link>
     </nav>
   );
 }

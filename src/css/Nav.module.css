@@ -9,7 +9,7 @@
         padding: 1rem;
     }
 
-    nav button{
+    .botaoNav{
         width: 100px;
         height: 40px;
     }
@@ -41,7 +41,7 @@
         align-items: center;
     }
 
-    nav button{
+    .botaoNav{
         width: 150px;
         height: 40px;
     }
