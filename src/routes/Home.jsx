@@ -112,7 +112,14 @@ const Home = () => {
         <h2>Seja Parte da Solução</h2>
         <p>Somos a Maré Cheia, e estamos aqui para apresentar os perigos da sobrepesca e suas consequências para sua região. Junte-se a nós nessa missão de proteger nossos oceanos e garantir um futuro sustentável para as próximas gerações.</p>
         <h4>Faça a diferença</h4>
-        <button className={`${styles.participeBtn} botaoUm botaoParticipe`}>Participe</button>
+        <a
+          className={`${styles.participeBtn} botaoUm botaoProblema`}
+          href="/participe"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Participe
+        </a>
       </section>
     </>
   );
