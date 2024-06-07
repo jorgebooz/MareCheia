@@ -14,9 +14,6 @@ function Nav() {
           <Link to="/Indicadores" className='navLink'>
             Indicadores
           </Link>
-          <Link to="/" className='navLink'>
-            Nosso time
-          </Link>
           <Link to="/login" className='navLink'>
             Login
           </Link>

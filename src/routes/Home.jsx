@@ -77,7 +77,14 @@ const Home = () => {
           </div>
         </div>
         <h4>Veja o monitoramento em tempo real</h4>
-        <button className={`${styles.mareCheiaBtn} botaoUm botaoMareCheia`}>Maré Cheia</button>
+        <a
+          className={`${styles.participeBtn} botaoUm botaoProblema`}
+          href="/indicadores"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Maré Cheia
+        </a>
       </section>
     
      <section className={styles.comentarios}> {/* usei bootstrap nessa parte mas eu instalei depois de começar o projeto e quebrou toda página, então so copiei o código e adptei para css puro */}
